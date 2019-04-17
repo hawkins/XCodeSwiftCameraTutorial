@@ -14,6 +14,7 @@
 		4467FEC92266971F00869650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4467FEC72266971F00869650 /* LaunchScreen.storyboard */; };
 		4467FED42266971F00869650 /* CustomCameraTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467FED32266971F00869650 /* CustomCameraTutorialTests.swift */; };
 		4467FEDF2266971F00869650 /* CustomCameraTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467FEDE2266971F00869650 /* CustomCameraTutorialUITests.swift */; };
+		4467FEED226698AD00869650 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4467FEEC226698AD00869650 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4467FEDA2266971F00869650 /* CustomCameraTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCameraTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4467FEDE2266971F00869650 /* CustomCameraTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraTutorialUITests.swift; sourceTree = "<group>"; };
 		4467FEE02266971F00869650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4467FEEC226698AD00869650 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4467FEBE2266971E00869650 /* AppDelegate.swift */,
 				4467FEC02266971E00869650 /* ViewController.swift */,
+				4467FEEC226698AD00869650 /* PhotoViewController.swift */,
 				4467FEC22266971E00869650 /* Main.storyboard */,
 				4467FEC52266971F00869650 /* Assets.xcassets */,
 				4467FEC72266971F00869650 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				4467FEC12266971E00869650 /* ViewController.swift in Sources */,
 				4467FEBF2266971E00869650 /* AppDelegate.swift in Sources */,
+				4467FEED226698AD00869650 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFZGR54ZFT;
 				INFOPLIST_FILE = CustomCameraTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EFZGR54ZFT;
 				INFOPLIST_FILE = CustomCameraTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
